@@ -20,7 +20,7 @@ NUCareer Portal has been completely redesigned and enhanced into a **modern, int
 
 ### 🤖 **AI Chatbot - Main Feature** ⭐
 The **home page now features a centered, prominent chatbot** with:
-- 📌 **5 pre-loaded Frequently Asked Questions:**
+- � **5 pre-loaded Frequently Asked Questions:**
   1. "How do I upload my resume?"
   2. "How can I practice mock interviews?"
   3. "How do I connect with alumni?"
@@ -128,7 +128,7 @@ Neutral:          #f8fafc to #0f172a (Slate shades)
 
 ---
 
-## 📦 Project Structure
+## � Project Structure
 
 ```
 app/
@@ -265,7 +265,7 @@ components/
 
 ---
 
-## 📊 Component Enhancements
+## � Component Enhancements
 
 ### **ChatBox** 💬 (NEW)
 - Built-in FAQ section
@@ -337,7 +337,7 @@ Desktop: > 1024px → Three+ columns
 
 ---
 
-## 🚀 Performance
+## � Performance
 
 - ✅ CSS animations (GPU accelerated)
 - ✅ Optimized images
@@ -387,7 +387,7 @@ Complete documentation available in:
 
 ---
 
-## 📄 Original Setup Instructions
+## � Original Setup Instructions
 
 **Original project info:**
 - UI package for Next.js App Router
@@ -403,7 +403,7 @@ Complete documentation available in:
 
 ---
 
-## 📝 Version History
+## � Version History
 
 - **v2.0** (Nov 15, 2025) - Complete redesign with animations and chatbot
 - **v1.0** - Original UI package

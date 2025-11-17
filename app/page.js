@@ -93,7 +93,7 @@ export default function Home(){
           <div className='flex gap-4 justify-center flex-wrap'>
             {!isAuthenticated ? (
               <>
-                <Link href='/register' className='px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-lg font-semibold hover:shadow-xl hover:-translate-y-1 transition-all'>
+                <Link href='/login' className='px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-lg font-semibold hover:shadow-xl hover:-translate-y-1 transition-all'>
                   Start Interview Prep
                 </Link>
                 <button onClick={() => openModal('features')} className='px-8 py-3 border-2 border-slate-300 text-slate-700 rounded-lg font-semibold hover:bg-slate-50 transition-all'>
@@ -179,7 +179,7 @@ export default function Home(){
             Join thousands of students who've improved their interview skills with NUCareer.
           </p>
           {!isAuthenticated ? (
-            <Link href='/register' className='inline-block px-8 py-3 bg-white text-orange-500 rounded-lg font-semibold hover:shadow-xl transition-all'>
+            <Link href='/login' className='inline-block px-8 py-3 bg-white text-orange-500 rounded-lg font-semibold hover:shadow-xl transition-all'>
               Get Started Free
             </Link>
           ) : (

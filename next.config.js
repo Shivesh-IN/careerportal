@@ -1,16 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Optimize for production
   reactStrictMode: true,
   swcMinify: true,
   
-  // Image optimization
   images: {
     domains: ['localhost'],
     formats: ['image/avif', 'image/webp'],
   },
   
-  // Security headers
   async headers() {
     return [
       {
@@ -33,7 +30,6 @@ const nextConfig = {
     ];
   },
 
-  // Redirects for SEO
   async redirects() {
     return [];
   },
